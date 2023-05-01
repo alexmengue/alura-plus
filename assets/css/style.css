@@ -2,6 +2,7 @@
     --primary-white: #FFFFFF;
     --secondary-gray: #C0C0C0;
     --button-blue: #167BF7;
+    --button-blue-effect: #3C92FA;
     --background-black: #00030C;
     --main-font: 'Inter';
 }
@@ -93,4 +94,58 @@ body {
 
 .container__description {
     padding: 2em;
+}
+
+.devices {
+    text-align: center;
+}
+
+.devices__list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.devices__title {
+    color: var(--primary-white);
+    font-size: 48px;
+}
+
+.devices__item {
+    color: var(--primary-white);
+    font-size: 32px;
+}
+
+.footer {
+    text-align: center;
+    margin: 5em 3em;
+}
+
+.footer__list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+}
+
+.list__link a {
+    text-decoration: none;
+    color: var(--primary-white);
+    margin-left: 1em;
+}
+
+.footer__text {
+    margin: 1em 0;
+    color: var(--secondary-gray);
+    font-size: 14px;
+}
+
+.list__link a:active {
+    color: purple;
+}
+
+.container__button:hover {
+    background-color: var(--button-blue-effect);
+    color: var(--background-black);
 }
