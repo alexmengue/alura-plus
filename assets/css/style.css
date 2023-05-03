@@ -11,7 +11,7 @@ body {
     background-color: var(--background-black);
     color: var(--primary-white);
     font-family: var(--main-font);
-    font-size: 16px;
+    font-size: 32px;
     font-weight: 400;
 }
 
@@ -78,7 +78,7 @@ body {
 
 .description__title {
     font-weight: 700;
-    font-size: 48px;
+    font-size: 96px;
     color: var(--primary-white);
     margin-bottom: 0.1em;
 }
@@ -109,7 +109,7 @@ body {
 
 .devices__title {
     color: var(--primary-white);
-    font-size: 48px;
+    font-size: 96px;
 }
 
 .devices__item {
